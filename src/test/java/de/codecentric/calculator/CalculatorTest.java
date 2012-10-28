@@ -12,6 +12,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 
 /**
+ * Test for class {@link Calculator}
  * 
  * @author max.hartmann
  *
