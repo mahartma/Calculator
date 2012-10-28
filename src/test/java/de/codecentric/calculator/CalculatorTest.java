@@ -11,7 +11,11 @@ import org.mockito.BDDMockito;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 
-
+/**
+ * 
+ * @author max.hartmann
+ *
+ */
 public class CalculatorTest {
 
 	@InjectMocks
