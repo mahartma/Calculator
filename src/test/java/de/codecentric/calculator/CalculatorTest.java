@@ -33,11 +33,11 @@ public class CalculatorTest {
 	@Test
 	public void shouldDisplayTheNumber() {
 		//Given
-		int numberToDisplay = 16;
+		int numberToDisplay = 17;
 		BDDMockito.given(labelMock.getText()).willReturn("0");
 		//When
 		calculator.addDigitToDisplay(numberToDisplay);
 		//Then
-		verify(labelMock).setText("16");
+		verify(labelMock).setText("17");
 	}
 }
