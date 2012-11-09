@@ -30,14 +30,17 @@ public class CalculatorTest {
 		initMocks(this);
 	}
 	
+	/**
+	 * 
+	 */
 	@Test
 	public void shouldDisplayTheNumber() {
 		//Given
-		int numberToDisplay = 19;
+		int numberToDisplay = 20;
 		BDDMockito.given(labelMock.getText()).willReturn("0");
 		//When
 		calculator.addDigitToDisplay(numberToDisplay);
 		//Then
-		verify(labelMock).setText("19");
+		verify(labelMock).setText("20");
 	}
 }
