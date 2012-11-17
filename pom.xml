@@ -5,7 +5,7 @@
 	<artifactId>Calculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Calculator</name>
-	<description>Gerrit example</description>
+	<description>Swing Calculator</description>
 	<build>
 		<plugins>
 			<plugin>
